@@ -1,0 +1,21 @@
+[0.933s] Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+[1.111s] Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+[1.112s] Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg
+[1.204s] -- Install configuration: ""
+[1.204s] -- Execute custom install script
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/package_run_dependencies/mypkg
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/parent_prefix_path/mypkg
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.sh
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.dsv
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.sh
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.dsv
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.bash
+[1.204s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.sh
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.zsh
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.dsv
+[1.205s] -- Symlinking: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.dsv
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig.cmake
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig-version.cmake
+[1.205s] -- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.xml
+[1.311s] Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eleclabs/ros2_ws/install/image_viewer:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg

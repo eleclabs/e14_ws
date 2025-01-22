@@ -1,0 +1,47 @@
+[0.044s] Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/mypkg
+[0.086s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found rclc: 4.0.2 (/opt/ros/humble/share/rclc/cmake)
+[0.472s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.503s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.654s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.711s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.729s] -- Looking for pthread.h
+[0.973s] -- Looking for pthread.h - found
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.216s] -- Found Threads: TRUE  
+[1.416s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.420s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.536s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.605s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.700s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.866s] -- Added test 'lint_cmake' to check CMake code style
+[1.869s] -- Added test 'xmllint' to check XML markup files
+[1.875s] -- Configuring done
+[1.887s] -- Generating done
+[1.894s] -- Build files have been written to: /home/eleclabs/ros2_ws/build/mypkg
+[1.910s] Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/mypkg
+[1.919s] Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+[2.040s] Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+[2.087s] Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg
+[2.109s] -- Install configuration: ""
+[2.110s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/package_run_dependencies/mypkg
+[2.112s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/parent_prefix_path/mypkg
+[2.113s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.sh
+[2.113s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.dsv
+[2.113s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.sh
+[2.113s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.dsv
+[2.114s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.bash
+[2.116s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.sh
+[2.116s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.zsh
+[2.117s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.dsv
+[2.117s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.dsv
+[2.119s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg
+[2.122s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig.cmake
+[2.122s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig-version.cmake
+[2.122s] -- Installing: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.xml
+[2.129s] Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg

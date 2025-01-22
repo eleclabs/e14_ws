@@ -1,0 +1,581 @@
+[0.000000] (-) TimerEvent: {}
+[0.000908] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000969] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002247] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.002279] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.016290] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.030943] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.089387] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.104228] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.104326] (-) TimerEvent: {}
+[0.142450] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eleclabs/ros2_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/eleclabs/ros2_ws/build/micro_ros_setup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[0.145809] (mypkg) JobProgress: {'identifier': 'mypkg', 'progress': 'cmake'}
+[0.149792] (mypkg) JobProgress: {'identifier': 'mypkg', 'progress': 'build'}
+[0.149840] (mypkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eleclabs/ros2_ws/build/mypkg', '--', '-j4', '-l4'], 'cwd': '/home/eleclabs/ros2_ws/build/mypkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/mypkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[0.173251] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.173653] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/eleclabs/ros2_ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/teleop_twist_joy'], 'cwd': '/home/eleclabs/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[0.206642] (-) TimerEvent: {}
+[0.316252] (-) TimerEvent: {}
+[0.342770] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.345697] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.381522] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eleclabs/ros2_ws/build/micro_ros_setup'], 'cwd': '/home/eleclabs/ros2_ws/build/micro_ros_setup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[0.390611] (mypkg) CommandEnded: {'returncode': 0}
+[0.402589] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.403267] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.403440] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.403542] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.403613] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.404646] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.406052] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.406161] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.406283] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.406406] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.406486] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.406552] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.406617] (mypkg) JobProgress: {'identifier': 'mypkg', 'progress': 'install'}
+[0.406642] (mypkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eleclabs/ros2_ws/build/mypkg'], 'cwd': '/home/eleclabs/ros2_ws/build/mypkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/mypkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[0.407108] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.407192] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.407343] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.407480] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.407597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.407699] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config\n'}
+[0.407804] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host\n'}
+[0.407917] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.408022] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.408129] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.408451] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.408569] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.408648] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.408718] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.408786] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.408849] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.408912] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.408973] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.409038] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.409101] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.409164] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.409238] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.409303] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.409438] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.409540] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.409610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.409675] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.409737] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.409798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.409861] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.409962] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.410074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.410166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.410262] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.410441] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.410565] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.410673] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.410792] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.410912] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.411022] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.411118] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.411182] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.411248] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.411368] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.423952] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.429500] (-) TimerEvent: {}
+[0.429930] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.430840] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.435444] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.435530] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.435602] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.435688] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.435756] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.435818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.435909] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.436710] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.437317] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.440360] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.446608] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.446739] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.446842] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.447626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.447748] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.448097] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.448509] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.448595] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.448663] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android\n'}
+[0.448729] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.448791] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.448851] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.448911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.448970] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.450789] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.451383] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.451513] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.451592] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.451662] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.451725] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.451802] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.451863] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.451926] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.451987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.452047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.452364] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.452482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.452557] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.452622] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.452901] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.453009] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.453085] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.453507] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.453712] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.453910] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.454412] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.454655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.454855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.455948] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.457217] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.457386] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.457469] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.457540] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.457603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.457708] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.457849] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.457940] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.458010] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.458347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.458468] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.458541] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.458610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.458679] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.458744] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.458809] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.459037] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.459424] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.459751] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.459845] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.459946] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.460038] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.460441] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.460525] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.460806] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.460888] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.460954] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.461018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.461376] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.461494] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.461571] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.461639] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.461703] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.461787] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.461847] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.461913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.461974] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.462523] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.474317] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.474823] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.474989] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.475077] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.475148] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.475213] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.475271] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.475329] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.475386] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.475520] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.475613] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.475688] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.475755] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.475818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.475877] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.475935] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.475992] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.476074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.476164] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.476226] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.476293] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.476351] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.476473] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.476584] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.476656] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.476761] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.476854] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.476919] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.476994] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.477121] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.477228] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.477319] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.477514] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.477691] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.477802] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.477920] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/eleclabs/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.478077] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.478555] (mypkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.478714] (mypkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.478838] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/package_run_dependencies/mypkg\n'}
+[0.478918] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/parent_prefix_path/mypkg\n'}
+[0.478985] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.sh\n'}
+[0.479047] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.dsv\n'}
+[0.479109] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.sh\n'}
+[0.479168] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.dsv\n'}
+[0.479229] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.bash\n'}
+[0.479289] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.sh\n'}
+[0.479349] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.zsh\n'}
+[0.479531] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.dsv\n'}
+[0.479669] (mypkg) StdoutLine: {'line': b'-- Symlinking: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.dsv\n'}
+[0.481905] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg\n'}
+[0.486747] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig.cmake\n'}
+[0.487349] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig-version.cmake\n'}
+[0.487528] (mypkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.xml\n'}
+[0.534307] (-) TimerEvent: {}
+[0.556595] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.563448] (mypkg) CommandEnded: {'returncode': 0}
+[0.587656] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.598700] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.614493] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.636731] (-) TimerEvent: {}
+[0.738264] (-) TimerEvent: {}
+[0.848504] (-) TimerEvent: {}
+[0.860697] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.876786] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.879159] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.879588] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.898123] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.948795] (-) TimerEvent: {}
+[1.062742] (-) TimerEvent: {}
+[1.150294] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.163185] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.163338] (-) TimerEvent: {}
+[1.165192] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.166398] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.171304] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.269765] (-) TimerEvent: {}
+[1.370996] (-) TimerEvent: {}
+[1.471919] (-) TimerEvent: {}
+[1.518370] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.573134] (-) TimerEvent: {}
+[1.676683] (-) TimerEvent: {}
+[1.734783] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.805918] (-) TimerEvent: {}
+[1.807971] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.820247] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.836044] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.861313] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.892517] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.946976] (-) TimerEvent: {}
+[1.948001] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.010702] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.015541] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.054817] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.056629] (-) TimerEvent: {}
+[2.085885] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.161355] (-) TimerEvent: {}
+[2.262400] (-) TimerEvent: {}
+[2.368335] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.371111] (-) TimerEvent: {}
+[2.371725] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.471780] (-) TimerEvent: {}
+[2.573550] (-) TimerEvent: {}
+[2.620990] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.623593] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.683958] (-) TimerEvent: {}
+[2.712314] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.784698] (-) TimerEvent: {}
+[2.887380] (-) TimerEvent: {}
+[2.892541] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.933978] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[2.988427] (-) TimerEvent: {}
+[3.092568] (-) TimerEvent: {}
+[3.195201] (-) TimerEvent: {}
+[3.205355] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[3.205591] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[3.294801] (-) TimerEvent: {}
+[3.396477] (-) TimerEvent: {}
+[3.465925] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[3.466925] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[3.503480] (-) TimerEvent: {}
+[3.606397] (-) TimerEvent: {}
+[3.713406] (-) TimerEvent: {}
+[3.806189] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[3.813938] (-) TimerEvent: {}
+[3.875523] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.915966] (-) TimerEvent: {}
+[4.055031] (-) TimerEvent: {}
+[4.121677] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.177596] (-) TimerEvent: {}
+[4.204430] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.247814] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.248114] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.248199] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.248271] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.281668] (-) TimerEvent: {}
+[4.290673] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.362603] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.363041] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/eleclabs/ros2_ws/src/teleop_twist_joy/include>\n'}
+[4.363446] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.371941] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.372095] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.375446] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.379369] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.382541] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.382700] (-) TimerEvent: {}
+[4.391724] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.392018] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.395490] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.411401] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.444124] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[4.457217] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/eleclabs/ros2_ws/build/teleop_twist_joy\n'}
+[4.486977] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[4.493087] (-) TimerEvent: {}
+[4.493565] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[4.493617] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eleclabs/ros2_ws/build/teleop_twist_joy', '--', '-j4', '-l4'], 'cwd': '/home/eleclabs/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[4.593476] (-) TimerEvent: {}
+[4.677039] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[4.694261] (-) TimerEvent: {}
+[4.797298] (-) TimerEvent: {}
+[4.901587] (-) TimerEvent: {}
+[5.002880] (-) TimerEvent: {}
+[5.107189] (-) TimerEvent: {}
+[5.208877] (-) TimerEvent: {}
+[5.309590] (-) TimerEvent: {}
+[5.412554] (-) TimerEvent: {}
+[5.514976] (-) TimerEvent: {}
+[5.620807] (-) TimerEvent: {}
+[5.722690] (-) TimerEvent: {}
+[5.823479] (-) TimerEvent: {}
+[5.929430] (-) TimerEvent: {}
+[6.030430] (-) TimerEvent: {}
+[6.132347] (-) TimerEvent: {}
+[6.232963] (-) TimerEvent: {}
+[6.334835] (-) TimerEvent: {}
+[6.437037] (-) TimerEvent: {}
+[6.537760] (-) TimerEvent: {}
+[6.644091] (-) TimerEvent: {}
+[6.745021] (-) TimerEvent: {}
+[6.847856] (-) TimerEvent: {}
+[6.959550] (-) TimerEvent: {}
+[7.102886] (-) TimerEvent: {}
+[7.210927] (-) TimerEvent: {}
+[7.314270] (-) TimerEvent: {}
+[7.416490] (-) TimerEvent: {}
+[8.264099] (-) TimerEvent: {}
+[8.366820] (-) TimerEvent: {}
+[8.471633] (-) TimerEvent: {}
+[8.584858] (-) TimerEvent: {}
+[8.706327] (-) TimerEvent: {}
+[8.812981] (-) TimerEvent: {}
+[8.924583] (-) TimerEvent: {}
+[9.043282] (-) TimerEvent: {}
+[9.149947] (-) TimerEvent: {}
+[9.260751] (-) TimerEvent: {}
+[9.381005] (-) TimerEvent: {}
+[9.506096] (-) TimerEvent: {}
+[9.610708] (-) TimerEvent: {}
+[9.716962] (-) TimerEvent: {}
+[9.840949] (-) TimerEvent: {}
+[10.023462] (-) TimerEvent: {}
+[10.124568] (-) TimerEvent: {}
+[10.225817] (-) TimerEvent: {}
+[10.340048] (-) TimerEvent: {}
+[10.442226] (-) TimerEvent: {}
+[10.543295] (-) TimerEvent: {}
+[10.681481] (-) TimerEvent: {}
+[10.783732] (-) TimerEvent: {}
+[10.927918] (-) TimerEvent: {}
+[11.249805] (-) TimerEvent: {}
+[11.357326] (-) TimerEvent: {}
+[11.494396] (-) TimerEvent: {}
+[11.596888] (-) TimerEvent: {}
+[11.745547] (-) TimerEvent: {}
+[11.846342] (-) TimerEvent: {}
+[11.953581] (-) TimerEvent: {}
+[12.095870] (-) TimerEvent: {}
+[12.197035] (-) TimerEvent: {}
+[12.299388] (-) TimerEvent: {}
+[12.400284] (-) TimerEvent: {}
+[12.534304] (-) TimerEvent: {}
+[12.636405] (-) TimerEvent: {}
+[12.740625] (-) TimerEvent: {}
+[12.842593] (-) TimerEvent: {}
+[12.952686] (-) TimerEvent: {}
+[13.055945] (-) TimerEvent: {}
+[13.157862] (-) TimerEvent: {}
+[13.258933] (-) TimerEvent: {}
+[13.360002] (-) TimerEvent: {}
+[13.488801] (-) TimerEvent: {}
+[13.593495] (-) TimerEvent: {}
+[13.697940] (-) TimerEvent: {}
+[13.798899] (-) TimerEvent: {}
+[13.902532] (-) TimerEvent: {}
+[14.006473] (-) TimerEvent: {}
+[14.108715] (-) TimerEvent: {}
+[14.209465] (-) TimerEvent: {}
+[14.310323] (-) TimerEvent: {}
+[14.411562] (-) TimerEvent: {}
+[14.512412] (-) TimerEvent: {}
+[14.613864] (-) TimerEvent: {}
+[14.715965] (-) TimerEvent: {}
+[14.821537] (-) TimerEvent: {}
+[14.931928] (-) TimerEvent: {}
+[15.033593] (-) TimerEvent: {}
+[15.369014] (-) TimerEvent: {}
+[16.026326] (-) TimerEvent: {}
+[16.134978] (-) TimerEvent: {}
+[16.364845] (-) TimerEvent: {}
+[16.859572] (-) TimerEvent: {}
+[17.067399] (-) TimerEvent: {}
+[17.170737] (-) TimerEvent: {}
+[17.354450] (-) TimerEvent: {}
+[17.507981] (-) TimerEvent: {}
+[17.691680] (-) TimerEvent: {}
+[17.804726] (-) TimerEvent: {}
+[18.034239] (-) TimerEvent: {}
+[18.141503] (-) TimerEvent: {}
+[18.278531] (-) TimerEvent: {}
+[18.491815] (-) TimerEvent: {}
+[18.603404] (-) TimerEvent: {}
+[18.749653] (-) TimerEvent: {}
+[18.851216] (-) TimerEvent: {}
+[18.981771] (-) TimerEvent: {}
+[19.133426] (-) TimerEvent: {}
+[19.512623] (-) TimerEvent: {}
+[20.283869] (-) TimerEvent: {}
+[21.078711] (-) TimerEvent: {}
+[21.460633] (-) TimerEvent: {}
+[21.562294] (-) TimerEvent: {}
+[21.679306] (-) TimerEvent: {}
+[21.782491] (-) TimerEvent: {}
+[21.884239] (-) TimerEvent: {}
+[21.995711] (-) TimerEvent: {}
+[22.109312] (-) TimerEvent: {}
+[22.220507] (-) TimerEvent: {}
+[22.338733] (-) TimerEvent: {}
+[22.440465] (-) TimerEvent: {}
+[22.630125] (-) TimerEvent: {}
+[22.665581] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[22.745219] (-) TimerEvent: {}
+[22.848026] (-) TimerEvent: {}
+[22.948526] (-) TimerEvent: {}
+[23.050584] (-) TimerEvent: {}
+[23.158442] (-) TimerEvent: {}
+[23.263780] (-) TimerEvent: {}
+[23.367435] (-) TimerEvent: {}
+[23.478934] (-) TimerEvent: {}
+[23.589952] (-) TimerEvent: {}
+[23.614423] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[23.682084] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[23.690483] (-) TimerEvent: {}
+[23.791321] (-) TimerEvent: {}
+[23.894603] (-) TimerEvent: {}
+[23.995584] (-) TimerEvent: {}
+[24.099334] (-) TimerEvent: {}
+[24.200297] (-) TimerEvent: {}
+[24.305815] (-) TimerEvent: {}
+[24.409128] (-) TimerEvent: {}
+[24.515782] (-) TimerEvent: {}
+[24.691136] (-) TimerEvent: {}
+[24.802480] (-) TimerEvent: {}
+[24.905779] (-) TimerEvent: {}
+[25.008371] (-) TimerEvent: {}
+[25.110494] (-) TimerEvent: {}
+[25.219747] (-) TimerEvent: {}
+[25.355738] (-) TimerEvent: {}
+[25.464650] (-) TimerEvent: {}
+[25.569325] (-) TimerEvent: {}
+[25.680913] (-) TimerEvent: {}
+[25.784558] (-) TimerEvent: {}
+[25.886561] (-) TimerEvent: {}
+[26.002427] (-) TimerEvent: {}
+[26.120536] (-) TimerEvent: {}
+[26.221766] (-) TimerEvent: {}
+[26.343457] (-) TimerEvent: {}
+[26.445596] (-) TimerEvent: {}
+[26.554435] (-) TimerEvent: {}
+[26.667388] (-) TimerEvent: {}
+[26.772404] (-) TimerEvent: {}
+[26.881863] (-) TimerEvent: {}
+[26.991453] (-) TimerEvent: {}
+[27.094791] (-) TimerEvent: {}
+[27.201709] (-) TimerEvent: {}
+[27.306292] (-) TimerEvent: {}
+[27.421365] (-) TimerEvent: {}
+[27.524890] (-) TimerEvent: {}
+[27.629546] (-) TimerEvent: {}
+[27.734752] (-) TimerEvent: {}
+[27.842550] (-) TimerEvent: {}
+[27.989736] (-) TimerEvent: {}
+[28.099181] (-) TimerEvent: {}
+[28.209440] (-) TimerEvent: {}
+[28.313755] (-) TimerEvent: {}
+[28.416156] (-) TimerEvent: {}
+[28.518250] (-) TimerEvent: {}
+[28.620355] (-) TimerEvent: {}
+[28.720888] (-) TimerEvent: {}
+[28.821946] (-) TimerEvent: {}
+[28.923353] (-) TimerEvent: {}
+[29.025065] (-) TimerEvent: {}
+[29.131145] (-) TimerEvent: {}
+[29.234606] (-) TimerEvent: {}
+[29.338113] (-) TimerEvent: {}
+[29.443167] (-) TimerEvent: {}
+[29.545467] (-) TimerEvent: {}
+[29.651483] (-) TimerEvent: {}
+[29.755780] (-) TimerEvent: {}
+[29.857541] (-) TimerEvent: {}
+[29.958445] (-) TimerEvent: {}
+[30.060277] (-) TimerEvent: {}
+[30.162394] (-) TimerEvent: {}
+[30.263991] (-) TimerEvent: {}
+[30.369926] (-) TimerEvent: {}
+[30.476625] (-) TimerEvent: {}
+[30.577730] (-) TimerEvent: {}
+[30.611613] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[30.687580] (-) TimerEvent: {}
+[30.795577] (-) TimerEvent: {}
+[30.934300] (-) TimerEvent: {}
+[30.967278] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[30.994659] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[30.996101] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[31.000354] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eleclabs/ros2_ws/build/teleop_twist_joy'], 'cwd': '/home/eleclabs/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eleclabs'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib:/home/eleclabs/ros2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eleclabs'), ('CYCLONEDDS_URI', '/etc/cyclonedds.xml'), ('OLDPWD', '/home/eleclabs/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '719'), ('SYSTEMD_EXEC_PID', '923'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eleclabs/ros2_ws/install:/home/eleclabs/amr_ws/install:/home/eleclabs/telenex_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'eleclabs'), ('JOURNAL_STREAM', '8:8521'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eleclabs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/humble/bin:/home/eleclabs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e14:@/tmp/.ICE-unix/886,unix/e14:/tmp/.ICE-unix/886'), ('INVOCATION_ID', '5b15593d421b4217874a0c02255354df'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NK6M02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a9ede68d-527d-44cb-99cf-02d4b7eebe26'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eleclabs/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eleclabs/amr_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/home/eleclabs/telenex_ws/install/amr_100_firmware/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eleclabs/ros2_ws/install/mypkg:/home/eleclabs/ros2_ws/install/lineturtle:/home/eleclabs/ros2_ws/install/teleop_twist_joy:/home/eleclabs/ros2_ws/install/micro_ros_agent:/home/eleclabs/amr_ws/install/amr_100_firmware:/home/eleclabs/telenex_ws/install/amr_100_firmware:/opt/ros/humble')]), 'shell': False}
+[31.013736] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.014626] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[31.029216] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[31.029490] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[31.030697] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/eleclabs/ros2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[31.030805] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[31.030867] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy\n'}
+[31.030918] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[31.031384] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[31.031486] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[31.032493] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[31.032640] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[31.033784] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml\n'}
+[31.033980] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[31.034267] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[31.034358] (-) TimerEvent: {}
+[31.034586] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[31.034755] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[31.034827] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[31.035595] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[31.088689] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[31.089625] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[31.089947] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[31.090049] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[31.090656] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[31.090916] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[31.091334] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[31.092327] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[31.092521] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[31.092861] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[31.092949] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[31.093440] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[31.094047] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[31.094387] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[31.095436] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[31.095935] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[31.096281] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.096357] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.096552] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[31.097179] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[31.097295] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[31.098309] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/eleclabs/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[31.103835] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[31.135917] (-) TimerEvent: {}
+[31.154663] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[31.158132] (-) EventReactorShutdown: {}

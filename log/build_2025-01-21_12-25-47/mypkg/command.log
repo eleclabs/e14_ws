@@ -1,0 +1,6 @@
+Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/mypkg
+Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/eleclabs/ros2_ws/src/mypkg -DCMAKE_INSTALL_PREFIX=/home/eleclabs/ros2_ws/install/mypkg
+Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/eleclabs/ros2_ws/build/mypkg -- -j4 -l4
+Invoking command in '/home/eleclabs/ros2_ws/build/mypkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg
+Invoked command in '/home/eleclabs/ros2_ws/build/mypkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/eleclabs/ros2_ws/build/mypkg

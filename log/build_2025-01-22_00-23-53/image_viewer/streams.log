@@ -1,0 +1,21 @@
+[1.990s] Invoking command in '/home/eleclabs/ros2_ws/src/image_viewer': PYTHONPATH=/home/eleclabs/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/eleclabs/ros2_ws/build/image_viewer/build install --record /home/eleclabs/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[2.526s] running egg_info
+[2.526s] writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO
+[2.530s] writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt
+[2.530s] writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt
+[2.530s] writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt
+[2.530s] writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt
+[2.532s] reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[2.534s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[2.535s] running build
+[2.536s] running build_py
+[2.536s] running install
+[2.537s] running install_lib
+[2.540s] running install_data
+[2.540s] running install_egg_info
+[2.543s] removing '/home/eleclabs/ros2_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[2.547s] Copying ../../build/image_viewer/image_viewer.egg-info to /home/eleclabs/ros2_ws/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info
+[2.553s] running install_scripts
+[2.638s] Installing image_viewer_node script to /home/eleclabs/ros2_ws/install/image_viewer/lib/image_viewer
+[2.639s] writing list of installed files to '/home/eleclabs/ros2_ws/build/image_viewer/install.log'
+[2.720s] Invoked command in '/home/eleclabs/ros2_ws/src/image_viewer' returned '0': PYTHONPATH=/home/eleclabs/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eleclabs/ros2_ws/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/eleclabs/ros2_ws/build/image_viewer/build install --record /home/eleclabs/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data

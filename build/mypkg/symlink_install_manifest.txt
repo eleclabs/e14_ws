@@ -1,0 +1,15 @@
+/home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/package_run_dependencies/mypkg
+/home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/parent_prefix_path/mypkg
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.sh
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/ament_prefix_path.dsv
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.sh
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/environment/path.dsv
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.bash
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.sh
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.zsh
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/local_setup.dsv
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.dsv
+/home/eleclabs/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig.cmake
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/cmake/mypkgConfig-version.cmake
+/home/eleclabs/ros2_ws/install/mypkg/share/mypkg/package.xml
