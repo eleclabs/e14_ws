@@ -23,7 +23,7 @@ class PublisherNodeClass(Node):
 
         if success == True:
             ROS2ImageMessage = self.bridgeObject.cv2_to_imgmsg(frame)
-            self.pulisher.publish(ROS2ImageMessage)
+            self.publisher.publish(ROS2ImageMessage)
         
         self.get_logger().info('publishing image %d' % self.i)
         self.i += 1
