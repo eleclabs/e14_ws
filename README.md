@@ -6,7 +6,7 @@ ros2 pkg create --build-type ament_python ros2_opencv --dependencies sensor_msgs
 
 -------------------------------------
 
-sudo apt install python3-rosdep2
+sudo apt install python3-rosdep2    --> /opt/xxxxx
 
 rosdep init
 
